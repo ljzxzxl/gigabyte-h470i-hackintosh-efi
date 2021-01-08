@@ -1,0 +1,1 @@
+# gigabyte-h470i-hackintosh-efi
