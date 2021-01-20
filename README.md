@@ -13,7 +13,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
  * Ethernet: Intel I225-V 2.5Gbit
  * Wi-Fi/BT: Intel AX201(onboard) / BCM94360CS(M.2 Adapter)
  * Audio: Realtek ALC1220-VB
-* CPU: Intel i9-10900t / 10900
+* CPU: Intel i9-10900t(es) / 10900
 * GPU: Intel UHD630 / AMD Radeon R9 Nano
 * RAM: Kingston Fury HyperX DDR4 2666 32GB(16G×2)
 
@@ -28,7 +28,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 - [x] AMD Radeon R9 Nano (dGPU)
 - [x] Audio Realtek ALC1220
 - [x] Intel I219-V 1.0Gb Ethernet
-- [x] Wi-Fi/BT (BCM94360CS)
+- [x] Wi-Fi/BT Onboard
 - [x] USB
 - [x] Restart/Shutdown
 - [x] Sleep/Wake
@@ -162,7 +162,6 @@ The installation guide in the [OpenCore Install Guide](https://dortania.github.i
 ### Screenshots
 
 <img src="assets/WechatIMG1.jpeg" width="745"/>
-<img src="assets/WX20210119-143546.png" width="745"/>
 <img src="assets/WX20210119-144228.png" width="745"/>
 <img src="assets/WX20210119-143609.png" width="745"/>
 <img src="assets/WX20210119-143624.png" width="745"/>
