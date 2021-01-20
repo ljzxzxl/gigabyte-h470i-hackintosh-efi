@@ -33,7 +33,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 - [x] Restart/Shutdown
 - [x] Sleep/Wake
 - [x] Power Management (Native support)
-# Not working so far
+## Not working so far
 - [ ] Intel I225-V 2.5Gb Ethernet
 
 ## Details
@@ -64,6 +64,7 @@ DeviceProperties:
     <data>mz4AAA==</data>
 </dict>
 ```
+
 #### AMD Radeon R9 Nano
 
 Native support, no additional configuration.
@@ -157,7 +158,7 @@ The installation guide in the [OpenCore Install Guide](https://dortania.github.i
 * Editing plist file: [PropereTree](https://github.com/corpnewt/ProperTree)
 * Dumping DSDT: [SSDTTime](https://github.com/corpnewt/SSDTTime)
 * Toolbox: [Hackintool](https://github.com/headkaze/Hackintool)
-
+* OpenCore Configurator: [OpenCore Configurator](https://mackie100projects.altervista.org)
 
 ### Screenshots
 
