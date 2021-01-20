@@ -27,12 +27,14 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 - [x] Intel UHD630 (iGPU)
 - [x] AMD Radeon R9 Nano (dGPU)
 - [x] Audio Realtek ALC1220
-- [x] Intel I225-V 2.5Gb Ethernet
+- [x] Intel I219-V 1.0Gb Ethernet
 - [x] Wi-Fi/BT (BCM94360CS)
 - [x] USB
 - [x] Restart/Shutdown
 - [x] Sleep/Wake
 - [x] Power Management (Native support)
+# Not working so far
+- [x] Intel I225-V 2.5Gb Ethernet
 
 ## Details
 
@@ -62,9 +64,9 @@ DeviceProperties:
     <data>mz4AAA==</data>
 </dict>
 ```
-#### AMD Radeon VII
+#### AMD Radeon R9 Nano
 
-Native support, no additional configuration. Enable `Radeonboost.kext` to improve performance if needed.
+Native support, no additional configuration.
 
 ### Audio
 
@@ -87,19 +89,8 @@ DeviceProperties:
 
 Working by:
 
-* FakePCIID.kext
-* FakePCIID_Intel_I225-V.kext
-* device-id=`F2150000`
+* IntelMausi.kext
 
-DeviceProperties:
-
-```xml
-<key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
-<dict>
-    <key>device-id</key>
-    <data>8hUAAA==</data>
-</dict>
-```
 ### Wi-Fi/BT
 
 Working by:
@@ -170,13 +161,13 @@ The installation guide in the [OpenCore Install Guide](https://dortania.github.i
 
 ### Screenshots
 
-<img src="assets/WechatIMG1.jpeg" width="500"/>
-<img src="assets/WX20210119-143546.png" width="500"/>
-<img src="assets/WX20210119-144228.png" width="500"/>
-<img src="assets/WX20210119-143609.png" width="500"/>
-<img src="assets/WX20210119-143624.png" width="500"/>
-<img src="assets/WX20210119-143637.png" width="500"/>
-<img src="assets/WX20210119-143645.png" width="500"/>
+<img src="assets/WechatIMG1.jpeg" width="745"/>
+<img src="assets/WX20210119-143546.png" width="745"/>
+<img src="assets/WX20210119-144228.png" width="745"/>
+<img src="assets/WX20210119-143609.png" width="745"/>
+<img src="assets/WX20210119-143624.png" width="745"/>
+<img src="assets/WX20210119-143637.png" width="745"/>
+<img src="assets/WX20210119-143645.png" width="745"/>
 
 ## Credits
 
