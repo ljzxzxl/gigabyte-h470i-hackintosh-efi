@@ -1,4 +1,4 @@
-# Hackintosh GIGABYTE H470I AORUS PRO AX
+# GIGABYTE H470I AORUS PRO AX Hackintosh
 
 This repository is about hackintosh on **GIGABYTE H470I AORUS PRO AX**. For now, all the hardware is working as expected, it's ready for daily usage and I will continue to follow the updates of OpenCore and macOS.
 
@@ -34,7 +34,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 - [x] Sleep/Wake
 - [x] Power Management (Native support)
 # Not working so far
-- [x] Intel I225-V 2.5Gb Ethernet
+- [ ] Intel I225-V 2.5Gb Ethernet
 
 ## Details
 
@@ -167,6 +167,7 @@ The installation guide in the [OpenCore Install Guide](https://dortania.github.i
 <img src="assets/WX20210119-143624.png" width="745"/>
 <img src="assets/WX20210119-143637.png" width="745"/>
 <img src="assets/WX20210119-143645.png" width="745"/>
+<img src="assets/1611112582.jpg" width="745"/>
 
 ## Credits
 
