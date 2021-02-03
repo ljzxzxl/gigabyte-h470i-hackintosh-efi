@@ -39,31 +39,6 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ### GPU
 
-#### Intel UHD630
-
-HDMI/DP display and audio output are working fine.
-
-Working by:
-
-* ig-platform-id = `07009B3E`
-* device-id = `9B3E0000`
-
-DeviceProperties:
-
-```xml
-<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-<dict>
-    <key>AAPL,ig-platform-id</key>
-    <data>BwCbPg==</data>
-    <key>framebuffer-patch-enable</key>
-    <data>AQAAAA==</data>
-    <key>framebuffer-stolenmem</key>
-    <data>AAAAQA==</data>
-    <key>device-id</key>
-    <data>mz4AAA==</data>
-</dict>
-```
-
 #### AMD Radeon R9 Nano
 
 Native support, no additional configuration.
