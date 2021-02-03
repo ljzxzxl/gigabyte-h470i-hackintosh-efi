@@ -20,7 +20,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 ## Software
 
 * Bootloader: OpenCore-0.6.5-RELEASE
-* OS: macOS Big Sur 11.1 (20C69 / 2020-12-14 / iMac20,2)
+* OS: macOS Big Sur 11.2 (20D64 / 2021-02-02 / iMac20,2)
 
 ## What's working
 
@@ -28,13 +28,12 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 - [x] AMD Radeon R9 Nano (dGPU)
 - [x] Audio Realtek ALC1220
 - [x] Intel I219-V 1.0Gb Ethernet
+- [x] Intel I225-V 2.5Gb Ethernet
 - [x] Wi-Fi/BT Onboard
 - [x] USB
 - [x] Restart/Shutdown
 - [x] Sleep/Wake
 - [x] Power Management (Native support)
-## Not working so far
-- [ ] Intel I225-V 2.5Gb Ethernet
 
 ## Details
 
@@ -91,6 +90,8 @@ DeviceProperties:
 Working by:
 
 * IntelMausi.kext
+* FakePCIID.kext
+* FakePCIID_Intel_I225-V.kext
 
 ### Wi-Fi/BT
 
