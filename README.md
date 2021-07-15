@@ -20,7 +20,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 ## Software
 
 * Bootloader: OpenCore-0.6.5-RELEASE
-* OS: macOS Big Sur 11.2 (20D64 / 2021-02-02 / iMac20,2)
+* OS: macOS Big Sur 11.4 (20F71 / 2021-05-25 / iMac20,2)
 
 ## What's working
 
@@ -78,7 +78,7 @@ Working by:
 
 ### BIOS
 
-> Version: F4c
+> Version: F21
 
 #### Disable
 
@@ -109,16 +109,15 @@ Compiled by following the [Dortania's ACPI Guide](https://dortania.github.io/Get
 
 All kexts with a version tag are downloaded from original repositories.
 
-* VirtualSMC.kext `1.1.9`
-* Lilu.kext `1.5.1`
-* WhateverGreen.kext `1.4.6`
-* AppleALC.kext `1.5.6`
+* VirtualSMC.kext `1.2.5`
+* Lilu.kext `1.5.4`
+* WhateverGreen.kext `1.5.1`
+* AppleALC.kext `1.6.2`
 * AirportItlwm.kext `v20210117`
-* IntelBluetoothFirmware.kext `1.1.2`
-* IntelBluetoothInjector.kext `1.1.2`
-* USBInjectAll.kext `0.7.5`
-* VirtualSMC.kext `1.1.9`
-* IntelMausi.kext `1.0.5`
+* IntelBluetoothFirmware.kext `1.1.3`
+* IntelBluetoothInjector.kext `1.1.3`
+* VirtualSMC.kext `1.2.5`
+* IntelMausi.kext `1.0.7`
 
 ## Misc
 
@@ -138,6 +137,8 @@ The installation guide in the [OpenCore Install Guide](https://dortania.github.i
 
 ### Screenshots
 
+<img src="assets/usb1.png" width="745"/>
+<img src="assets/usb2.png" width="745"/>
 <img src="assets/WechatIMG1.jpeg" width="745"/>
 <img src="assets/WX20210119-144228.png" width="745"/>
 <img src="assets/WX20210119-143609.png" width="745"/>
