@@ -19,8 +19,8 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## Software
 
-* Bootloader: OpenCore-0.6.5-RELEASE
-* OS: macOS Big Sur 11.4 (20F71 / 2021-05-25 / iMac20,2)
+* Bootloader: OpenCore-0.7.4-RELEASE
+* OS: macOS Big Sur 11.6 (20G165 / 2021-09-14 / iMac20,2)
 
 ## What's working
 
@@ -109,14 +109,14 @@ Compiled by following the [Dortania's ACPI Guide](https://dortania.github.io/Get
 
 All kexts with a version tag are downloaded from original repositories.
 
-* VirtualSMC.kext `1.2.5`
-* Lilu.kext `1.5.4`
-* WhateverGreen.kext `1.5.1`
-* AppleALC.kext `1.6.2`
-* AirportItlwm.kext `v20210117`
-* IntelBluetoothFirmware.kext `1.1.3`
-* IntelBluetoothInjector.kext `1.1.3`
-* VirtualSMC.kext `1.2.5`
+* VirtualSMC.kext `1.2.7`
+* Lilu.kext `1.5.6`
+* WhateverGreen.kext `1.5.4`
+* AppleALC.kext `1.6.5`
+* AirportItlwm.kext `2.1.0`
+* IntelBluetoothFirmware.kext `2.0.1`
+* IntelBluetoothInjector.kext `2.0.1`
+* VirtualSMC.kext `1.2.7`
 * IntelMausi.kext `1.0.7`
 
 ## Misc
@@ -137,15 +137,18 @@ The installation guide in the [OpenCore Install Guide](https://dortania.github.i
 
 ### Screenshots
 
-<img src="assets/usb1.png" width="745"/>
-<img src="assets/usb2.png" width="745"/>
-<img src="assets/WechatIMG1.jpeg" width="745"/>
-<img src="assets/WX20210119-144228.png" width="745"/>
-<img src="assets/WX20210119-143609.png" width="745"/>
-<img src="assets/WX20210119-143624.png" width="745"/>
-<img src="assets/WX20210119-143637.png" width="745"/>
-<img src="assets/WX20210119-143645.png" width="745"/>
-<img src="assets/1611112582.jpg" width="745"/>
+<img src="assets/usb1.png" width="850"/>
+<img src="assets/usb2.png" width="850"/>
+<img src="assets/WechatIMG1.jpeg" width="850"/>
+<img src="assets/WX20211013-110107@2x.png" width="850"/>
+<img src="assets/WX20211013-110250@2x.png" width="850"/>
+<img src="assets/WX20211013-110141@2x.png" width="850"/>
+<img src="assets/WX20211013-110157@2x.png" width="850"/>
+<img src="assets/WX20211013-110215@2x.png" width="850"/>
+<img src="assets/WX20211013-110237@2x.png" width="850"/>
+<img src="assets/WX20211013-105920@2x.png" width="850"/>
+<img src="assets/WX20211013-110339@2x.png" width="850"/>
+<img src="assets/1611112582.jpg" width="850"/>
 
 ## Credits
 
