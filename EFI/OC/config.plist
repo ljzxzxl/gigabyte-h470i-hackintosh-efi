@@ -126,8 +126,6 @@
 				<string>onboard-2</string>
 				<key>layout-id</key>
 				<data>BQAAAA==</data>
-				<key>model</key>
-				<string>Intel Audio Device</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -710,9 +708,9 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CDPZ4046M</string>
+			<string>C02C3KZK046M</string>
 			<key>SystemUUID</key>
-			<string>5353448C-248E-47C0-981A-9ABAA71FB03F</string>
+			<string>EBEA75F8-611D-49C1-A342-401793C4404B</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -721,7 +719,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C020102704N0000JA</string>
+			<string>C02002902CD0000FB</string>
 			<key>ProcessorType</key>
 			<integer>4105</integer>
 			<key>ROM</key>
@@ -733,35 +731,35 @@
 			<key>SystemProductName</key>
 			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CDPZ4046M</string>
+			<string>C02C3KZK046M</string>
 			<key>SystemUUID</key>
-			<string>5353448C-248E-47C0-981A-9ABAA71FB03F</string>
+			<string>EBEA75F8-611D-49C1-A342-401793C4404B</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
 			<string>Mac-AF89B6D9451A490B</string>
 			<key>FirmwareFeatures</key>
-			<data>dvWP/QAAAAA=</data>
+			<data>dvWP/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f//f/wAAAAA=</data>
+			<data>f//f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C020102704N0000JA</string>
+			<string>C02002902CD0000FB</string>
 			<key>ROM</key>
 			<data>iLsJVq2b</data>
 			<key>SystemSerialNumber</key>
-			<string>C02CDPZ4046M</string>
+			<string>C02C3KZK046M</string>
 			<key>SystemUUID</key>
-			<string>5353448C-248E-47C0-981A-9ABAA71FB03F</string>
+			<string>EBEA75F8-611D-49C1-A342-401793C4404B</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>05/21/2021</string>
+			<string>09/05/2021</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>1715.0.26.0.0</string>
+			<string>1715.40.12.0.0</string>
 			<key>BoardAssetTag</key>
 			<string>Base Board Asset Tag</string>
 			<key>BoardLocationInChassis</key>
@@ -771,7 +769,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-AF89B6D9451A490B</string>
 			<key>BoardSerialNumber</key>
-			<string>C020102704N0000JA</string>
+			<string>C02002902CD0000FB</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -781,15 +779,15 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02CDPZ4046M</string>
+			<string>C02C3KZK046M</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
 			<string>Mac-AF89B6D9451A490B</string>
 			<key>FirmwareFeatures</key>
-			<data>dvWP/QAAAAA=</data>
+			<data>dvWP/QgAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>f//f/wAAAAA=</data>
+			<data>f//f/wgAAAA=</data>
 			<key>PlatformFeature</key>
 			<integer>32</integer>
 			<key>ProcessorType</key>
@@ -805,9 +803,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CDPZ4046M</string>
+			<string>C02C3KZK046M</string>
 			<key>SystemUUID</key>
-			<string>5353448C-248E-47C0-981A-9ABAA71FB03F</string>
+			<string>EBEA75F8-611D-49C1-A342-401793C4404B</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -845,6 +843,8 @@
 			<string>Builtin</string>
 			<key>CustomDelays</key>
 			<false/>
+			<key>GraphicsInputMirroring</key>
+			<false/>
 			<key>KeyInitialDelay</key>
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
@@ -879,9 +879,36 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>HfsPlus.efi</string>
-			<string>OpenRuntime.efi</string>
-			<string>OpenCanopy.efi</string>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>HfsPlus.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenRuntime.efi</string>
+			</dict>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -980,6 +1007,8 @@
 			<true/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
+			<key>ForceOcWriteFlash</key>
+			<false/>
 			<key>ForgeUefiSupport</key>
 			<false/>
 			<key>IgnoreInvalidFlexRatio</key>
